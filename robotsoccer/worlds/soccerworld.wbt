@@ -1,0 +1,20 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.30029269132897674 0.9178055523272893 0.25972536967265863 1.4877186271792497
+  position 16.956228612465157 10.27884843021646 3.129263280671335
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobotstadiumSoccerField {
+}
+DEF BALL SoccerBall {
+}
+Robot {
+  controller "soccer_referee"
+  supervisor TRUE
+}
